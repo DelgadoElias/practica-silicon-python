@@ -1,0 +1,53 @@
+REPASO - CLASE 1 (Backend con Python)
+=====================================
+
+Cada archivo de esta carpeta corresponde al archivo del mismo nombre en
+clase1/ y tiene cuatro partes:
+
+  CONCEPTOS   la teoría del tema, resumida
+  NOTAS       errores encontrados en la versión de clase y por qué
+  CÓDIGO      la versión mejorada, comentada línea por línea
+  PRACTICAR   ejercicios para resolver solos
+
+Se ejecutan desde esta carpeta con:   python nombre_del_archivo.py
+(Probados con Python 3.14; funcionan desde Python 3.8.)
+
+Índice
+------
+1_1   print(), comentarios, sep/end, \n
+2_1   variables, tipos, input(), conversiones, operadores
+2_2   calculadora de propina: constantes, float vs int, round, formato
+3_1   if / elif / else, and / or / not, ternario
+3_2   cine: condicionales anidados, límites de edad
+4_1   while, for, range, break, continue, for-else
+4_2   validar datos con while True
+5_1   listas: índices, slicing, métodos, sort vs sorted
+5_2   recorrer listas, enumerate, búsqueda
+5_3   promedio: acumuladores, centinela, lista vacía
+6_1   diccionarios: [] vs get, items, listas de diccionarios
+6_2   menú del café: máximo/mínimo, max(key=)
+6_3   sets: duplicados, unión, intersección, diferencia
+7     funciones, return vs print, scope (local/global)
+7_1   8 ejercicios de funciones CON SOLUCIÓN y tests con assert
+8_1   valores por defecto, *args, **kwargs, lambda
+8_2   recursión: caso base, factorial, estructuras anidadas
+8_3   calculadora flexible: diccionario de funciones
+9_1   try / except / else / finally, reintentar
+9_2   raise, excepciones propias, validar un pago
+10    clases y objetos, __init__, self, @property, __str__
+10_1  cuenta bancaria, carrito, herencia
+
+Errores principales que se corrigen
+-----------------------------------
+3_2  Con 18 años pedía autorización (<= en vez de <) y con 59 cobraba
+     precio de jubilado.
+4_2  while True sin break: preguntaba la edad para siempre.
+5_3  // en el promedio (9.5 se mostraba como 9) y ZeroDivisionError si
+     no se cargaba ninguna nota.
+6_2  "defecto" aparecía como producto en la carta; f-string con comillas
+     dobles anidadas (SyntaxError antes de Python 3.12).
+7    calcular_iva devolvía "Hola" o un número según el caso.
+8_1  pedir_pizza() rompía con 1 pizza (UnboundLocalError); valor + valor
+     en vez de valor + valor2.
+8_2  cuenta_regresiva(-10) nunca llegaba al caso base (RecursionError).
+10   cumpleanios() recalculaba es_mayor con la edad vieja.
