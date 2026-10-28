@@ -117,6 +117,7 @@ print(issubclass(Animal, Sesion_Usuario))
 # nombre, password, cuit, clave_usuario
 
 perro = Perro("Firulais", 3, 30, False)
+
 firuar = Caniche("Firuar", 3, 30, vacunado=False, velocidad=20 )
 vaca_lechera = Vaca("Lechera",1,300,"Las Marias", "Carpeta")
 

@@ -12,6 +12,12 @@ class Persona:
 elias = Persona("Elias", 25, "Posadas")
 martin = Persona("Martin",25, "San Vicente")
 
+dict_elias = {
+    "nombre": "Elias",
+    "edad": 25,
+    "ciudad": "Posadas"
+}
+
 print(f"{elias.nombre} {elias.edad} {martin.ciudad}")
 
 elias.edad = 23

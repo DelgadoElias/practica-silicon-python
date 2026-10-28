@@ -32,6 +32,7 @@ def input_blindado(mensaje = "El numero tiene que estar dentro del minimo y el m
             if numero_blindado < minimo or numero_blindado > maximo:
                 raise ValueError(mensaje)
         except ValueError as e:
+            # Trabajar en la implementacion para poder solucionar
             print(e)
         else:
             break
