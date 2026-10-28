@@ -1,9 +1,9 @@
-# BBBBBBB =====================================================================
+# BBBBBBBESTOY TRABAJANDO EN UNA NUEVA FUNCIONALIDAD =====================================================================
 # REPASO 1.1 - Mi primer archivo de Python
 # Archivo original: clase1/1_1_hola.py
 # =====================================================================
 #
-# CONCEPTOS
+# CONCEPTOSwefwefwffwewefwef
 # ---------
 # - Un programa de Python es un archivo de texto con extensión .py.
 #   Python lo lee de ARRIBA hacia ABAJO, una línea por vez.
