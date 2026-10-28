@@ -60,7 +60,7 @@ class Vaca(Animal):
 
     def comunicarse(self):
             print(f"Interno: {super().comunicarse()}")
-            return f"{self.nombre} - Muuu!"
+            return f"{self.nombre} - Muuuu!"
 
     def ver_documentacion(self):
         print(self.__documentacion)
